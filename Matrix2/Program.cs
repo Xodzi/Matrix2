@@ -24,7 +24,7 @@ class Program
         {
             for (int j = 0; j < m; j++)
             {
-                Console.Write($"Элемент [{i + 1},{j + 1}]: ");
+                Console.Write($"Элемент [{i + 1},{j + 1}]: "); ///комментарии для нового коммита
                 matrix1[i, j] = int.Parse(Console.ReadLine());
             }
         }
